@@ -1,0 +1,24 @@
+{
+  "name": "perftest",
+  "processes": [
+    {
+      "buildIndexes": true,
+      "dbPath": "/data",
+      "featureCompatibilityVersion": "4.4",
+      "hostname": "apt-puma.mdbtraining.net",
+      "logDestination": "file",
+      "logPath": "/data/mongodb.log",
+      "name": "perftest_2",
+      "port": 27017,
+      "priority": 1,
+      "processType": "mongod",
+      "slaveDelay": 0,
+      "votes": 1,
+      "arbiterOnly": false,
+      "disabled": false,
+      "hidden": false,
+      "version": "4.4.3-ent"
+    }
+  ],
+  "mongoURI": "mongodb://apt-puma.mdbtraining.net:27017"
+}
